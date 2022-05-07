@@ -18,16 +18,16 @@ I used epochs = 30, learning rate = 0.0001 , steps_per_epoch = 28709 // 64 = 448
     A Conv2D layer with 32 filters ,  kernel size of 3x3 , padding = same (so that the size of the image does not change in output), Rectified linear Unit(relu) as an activation function and  shape of image is 48x48x1 (height x width x channel). Lastly, adding this layer to the sequential model.
 
 **What is layers.MaxPooling2D(pool_size=(2, 2), strides=(2, 2)) ?**
-  
-  MaxPooling2D layer which picks the max value out of a matrix of size (2*2) with a stride of 2 pixels.
+
+    MaxPooling2D layer which picks the max value out of a matrix of size (2*2) with a stride of 2 pixels.
 
 **What is (layers.Flatten() ?**
-  
-  Flatten is used to flatten all its input into a single dimension.
+
+    Flatten is used to flatten all its input into a single dimension.
 
 **What is layers.Dense(512, activation='relu') ?**
-  
-  Dense layer consists of 512 neurons and a ‘relu’ activation function.
+
+    Dense layer consists of 512 neurons and a ‘relu’ activation function.
 
 
 **PROBLEM WITH THE 1ST MODEL **:
