@@ -9,7 +9,7 @@ Addition to this, I have used Adam(Adaptive Moment estimation algorithm) optimiz
 
 Categorical Cross Entropy is a loss function. I used categorical cross entropy because this is a multi-class classification problem. metric is based on accuracy.
 
-I used epochs = 30, learning rate = 0.0001 , steps_per_epoch = 28709 // 64 = 448 for this model. 
+_I used epochs = 30, learning rate = 0.0001 , steps_per_epoch = 28709 // 64 = 448 for this model. _
 
 ****Details about Model layers****
 
@@ -33,3 +33,6 @@ I used epochs = 30, learning rate = 0.0001 , steps_per_epoch = 28709 // 64 = 448
 **PROBLEM WITH THE 1ST MODEL **:
      
      The model was performing well in the training dataset (accuracy = 97.89%) but on the testing dataset the accuracy is extremely low(accuracy = 56.98%). In this model the testing error significantly higher than the training error is probably an indication that this model is overfitted. Shown in the graph below.
+
+
+****padding and pooling python files are just separate testing for understanding....****
